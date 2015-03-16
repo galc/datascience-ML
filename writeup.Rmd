@@ -2,8 +2,11 @@
 title: "Prediction Model based on Accelerometer Data"
 author: "GalC"
 date: "Sunday, December 21, 2014"
-output: html_document
+output: pdf_document
 ---
+
+# Prediction Model based on Accelerometer Data
+
 
 ## Overview
 Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement - a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.
@@ -11,7 +14,7 @@ Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible t
 The goal of this assignment is to use data from accelerometers placed on the belt, forearm, arm, and dumbell of 6 participants to predict how well they were doing. 
 
 ### Libraries
-These are the libraries that were used in this model:
+These following libraries are used in this model:
 ```{r}
 library(caret)
 library(randomForest)
